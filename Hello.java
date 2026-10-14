@@ -5,5 +5,12 @@ public class Hello {
         System.out.println("Hii All")
 
         System.out.println("Welcome to my Java application!");
+
+        int result = add(10, 20);
+        System.out.println("10 + 20 = " + result);
     }
 }      
+
+public static int add(int a, int b) {
+    return a + b;
+}
